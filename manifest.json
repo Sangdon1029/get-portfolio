@@ -1,12 +1,12 @@
 {
     "manifest_version": 3,
-    "name": "My First Chrome Extension",
+    "name": "Copy Portfolio",
     "version": "1.0",
-    "description": "This is my first Chrome extension!",
+    "description": "Copy Portfolio",
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
-        "16": "icons/logo.ico"
+        "16": "icons/logo.png"
       }
     },
     "permissions": [

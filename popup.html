@@ -1,29 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
   <head>
-    <title>portfolio info copy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오 복사 하기</title>
     <style>
       body {
-        width: 300px;
-        height: 200px;
+        width: 250px;
+        height: 100px;
         font-family: Arial, sans-serif;
+        border-radius: 30px;
+        font-size: 18px;
+        font-weight: 800;
+        overflow: scroll;
       }
       button { 
         cursor: pointer;
-        border : 1px solid #000;
+        border : 1px solid #bdb5b5;
         background-color: transparent;
+        box-shadow: 0 0 5px rgba(124, 122, 122, 0.5);
         border-radius: 25px;
         padding: 10px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 800;
       }
       button:hover {
         background-color: #BCC0C6;
         color: #fff;
       }
+      .text {
+        padding-left: 10px;
+        font-size: 13px;
+        color: #bdb5b5;
+      }
     </style>
   </head>
   <body>
-    <button id="btn">copy portfolio</button>
-    <div id="result">No data yet</div>  <!-- 결과를 표시할 영역 추가 -->
+    <button id="btn">포트폴리오 복사하기</button>
+    <button id="btn_2">슬랙으로 보내기</button>
+    <div class="text" id="result">포트폴리오를 선택해주세요</div>  <!-- 결과를 표시할 영역 추가 -->
     <script src="popup.js"></script>
   </body>
 </html>
